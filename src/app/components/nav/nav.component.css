@@ -1,0 +1,39 @@
+
+.nav-input {
+  width: 450px;
+  padding: 10px 40px 10px 20px;
+  border-radius: 10px;
+  border: solid 1px #808080;
+  background: none;
+}
+
+.nav-input:focus {
+  outline: none;
+  border: solid 1px #808080;
+}
+
+.search-icon {
+  position: absolute;
+  font-size: 24px;
+  color: #808080;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  background: #202020 !important;
+  color: #808080;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-with-icon {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
